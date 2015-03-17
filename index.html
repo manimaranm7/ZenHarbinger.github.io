@@ -1,114 +1,87 @@
-<!DOCTYPE html>
+
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>torgo Logo Interpreter</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">
+            article
+            {
+                border: 0px;
+            }
+            nav
+            {
+                float: right;
+                border: 0px;
+            }
+            html {
+            }
+        </style>
+        <script type="text/javascript">
+            var fix = 53;
+            var nav_width = 200;
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Zenharbinger.GitHub.io : Torgo - Logo Interpreter in Java">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Zenharbinger.GitHub.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ZenHarbinger">View on GitHub</a>
-
-          <h1 id="project_title">Zenharbinger.GitHub.io</h1>
-          <h2 id="project_tagline">Torgo - Logo Interpreter in Java</h2>
-
+            function initWidth()
+            {
+                var w = window.innerWidth;
+                var nav = document.getElementById('nav');
+                nav.style.width = nav_width;
+                var elems = document.getElementsByTagName('article');
+                for (var x = 0; x < elems.length; x++)
+                {
+                    elems[x].style.width = (w - (nav_width + fix));
+                }
+            }
+        </script>
+    </head>
+    <body onload='initWidth()' onresize='initWidth()'>
+        <header>
+            <h1>Torgo Logo Interpreter</h1>
+            Torgo is a <a href="http://en.wikipedia.org/wiki/Logo_%28programming_language%29">Logo</a> interpreter written in Java using ANTLR as a parsing backend.<br />
+            <br />
         </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="torgo" class="anchor" href="#torgo" aria-hidden="true"><span class="octicon octicon-link"></span></a>torgo</h1>
-
-<h2>
-<a id="logo-interpreter-in-java" class="anchor" href="#logo-interpreter-in-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Logo Interpreter in Java</h2>
-
-<p>Torgo is a Logo interpreter written in Java.  It uses <a href="http://www.antlr.org/">ANTLR</a> as a language parser and for lexical analysis.  The parsed scripts are then walked to interpret the commands.</p>
-
-<p>Torgo is built using Java8 (use of lamba for personal learning).</p>
-
-<p>Some goals for Torgo are:</p>
-
-<ul>
-<li>to learn to program</li>
-<li>to learn how machines execute programs</li>
-<li>to modify/add languages to change behaviors</li>
-</ul>
-
-<p>This project was inspired by <a href="http://tortue.sourceforge.net/">Tortue</a>.</p>
-
-<h2>
-<a id="languages" class="anchor" href="#languages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Languages</h2>
-
-<p>Torgo currently supports logo; jvmBasic and lisp are in development.</p>
-
-<h2>
-<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
-
-<p>All requirements (and optional jars) for compiling and running are available in the /lib directory of the project.</p>
-
-<h3>
-<a id="run" class="anchor" href="#run" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run</h3>
-
-<ul>
-<li>
-<a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java8</a> (for lambdas)</li>
-<li><a href="http://commons.apache.org/proper/commons-io/">apache-commons-io</a></li>
-<li><a href="http://commons.apache.org/proper/commons-collections/">apache-commons-collections</a></li>
-<li><a href="http://commons.apache.org/proper/commons-cli/">apache-commons-cli</a></li>
-<li><a href="http://www.antlr.org/">ANTLR 4.5</a></li>
-</ul>
-
-<h3>
-<a id="optional" class="anchor" href="#optional" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional</h3>
-
-<ul>
-<li>
-<a href="http://fifesoft.com/rsyntaxtextarea/">RSyntaxArea</a> - Will compile and run without this jar, but looks nicer with it.</li>
-</ul>
-
-<h3>
-<a id="building" class="anchor" href="#building" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building</h3>
-
-<ul>
-<li>org-netbeans-modules-java-j2seproject-copylibstask.jar</li>
-</ul>
-
-<h2>
-<a id="compile" class="anchor" href="#compile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile</h2>
-
-<ol>
-<li>Check out code</li>
-<li><code>ant clean jar</code></li>
-</ol>
-
-<h2>
-<a id="run-1" class="anchor" href="#run-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run</h2>
-
-<ol>
-<li><code>java -jar dist/torgo.jar</code></li>
-</ol>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+        <nav id='nav'>
+            <h2>Links</h2>
+            <h3>Project</h3>
+            <ul>
+                <li><a href='http://torgo.googlecode.com'>Souce</a></li>
+                <li><a href='http://www.apache.org/licenses/LICENSE-2.0'>License</a></li>
+                <li><a href='http://en.wikipedia.org/wiki/Logo_%28programming_language%29'>Logo</a></li>
+            </ul>
+            <h3>Dependencies</h3>
+            <ul>
+                <li><a href='http://www.antlr.org/'>ANTLR</a></li>
+                <li><a href='http://fifesoft.com/rsyntaxtextarea/'>RSyntaxTextArea</a></li>
+                <li><a href='http://commons.apache.org/proper/commons-io/'>Apache IO</a></li>
+                <li><a href='http://commons.apache.org/proper/commons-collections/'>Apache Commons</a></li>
+                <li><a href='http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html'>Java8 JDK</a></li>
+                <li><a href='http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html'>Java8 JRE</a></li>
+            </ul>
+            <h3>Inspirations</h3>
+            <ul>
+                <li><a href='http://tortue.sourceforge.net/'>Tortue</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2 class='title'>Screen Shots</h2>
+            <time>2015-03-02</time><br />
+            <img width="640px" src="tree.png"><br />
+            <img width="640px" src="grayscale.png"><br />
+            <img width="640px" src="flower.png"><br />
+            <img width="640px" src="expressions.png"><br />
+            <img width="640px" src="torgo_text.png"><br />
+            --<br />
+            Matt
+        </article>
+        <article>
+            <h2 class='title'>Source Code</h2>
+            <time>2015-03-02</time><br />
+            <br />
+            Source code for Torgo is available through <a href="http://torgo.googlecode.com">Google Code</a>.<br />
+            Avialable under the Apache License 2.0.
+            <br />
+            --<br />
+            Matt
+        </article>
+    </body>
 </html>
