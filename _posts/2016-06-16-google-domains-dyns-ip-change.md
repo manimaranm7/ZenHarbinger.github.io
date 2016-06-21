@@ -5,8 +5,6 @@ date: '2016-06-16 13:54:17 -0400'
 categories: dev
 ---
 
-# Google Domains Dynamc DNS Check
-
 [check-ip-change](https://github.com/ZenHarbinger/google-domains-dydns-ip-change) is a script for checking the local public IP address and a [Google Domains](https://domains.google.com/) Dynamic DNS registered address.
 
 Add Configured Dynamic DNS Record.
