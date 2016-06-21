@@ -77,7 +77,7 @@ Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patt
 
 #### Virginia Tech, Blacksburg, Virginia -- M.S., Computer Science and Applications, 2002
 
-- M.S. Project and Report: "[Flexible Design of Interpreters]({{site.url}}/Interpreter.pdf)," May 2002
+- M.S. Project and Report: "Flexible Design of Interpreters," May 2002
 
 #### Virginia Tech, Blacksburg, Virginia -- B.S., Computer Science, 2000
 
