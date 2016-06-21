@@ -19,3 +19,4 @@ markdown: kramdown
 # gems:
 #   - jekyll-coffeescript
 #   - jekyll-paginate
+timezone: America/New_York
