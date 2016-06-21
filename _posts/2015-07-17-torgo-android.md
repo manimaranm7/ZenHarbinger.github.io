@@ -1,0 +1,11 @@
+---
+layout: post
+title: Torgo for Android
+date: '2015-07-17 13:54:17 -0400'
+categories: dev
+---
+
+## Torgo for Android
+An android implementation of [Torgo](https://github.com/ZenHarbinger/torgo-android).  
+
+![]({{site.url}}/images/torgo-android-recursive.jpg)
