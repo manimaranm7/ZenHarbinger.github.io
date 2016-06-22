@@ -32,4 +32,4 @@ Meta-site for Matthew Aguirre.  There's not much going on here but pointers to p
 ## On-Line Profiles
 - [Goodreads](https://www.goodreads.com/ZenHarbinger)
 - [Resume @ LinkedIn](https://www.linkedin.com/in/matthewaguirre)
-- [Resume @ TROS.org]({{site.url}}/resume)
+- [Resume @ TROS.org](/resume)

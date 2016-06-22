@@ -17,6 +17,7 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 //$brand-color:      #2a7ae2;
+//Custom Values for TROS.org
 $brand-color:      #ff6600;
 
 $grey-color:       #828282;
@@ -29,7 +30,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+//Custom Values for TROS.org
+$code-background-color: $grey-color-light;
+$link-hover-color: #660000;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

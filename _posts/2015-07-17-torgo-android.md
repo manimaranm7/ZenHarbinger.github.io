@@ -8,4 +8,4 @@ author: Matthew Aguirre
 
 An android implementation of [Torgo](https://github.com/ZenHarbinger/torgo-android).  
 
-![]({{site.url}}/tros-images/torgo-android-recursive.jpg)
+![](/tros-images/torgo-android-recursive.jpg)

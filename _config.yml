@@ -20,3 +20,16 @@ markdown: kramdown
 #   - jekyll-coffeescript
 #   - jekyll-paginate
 timezone: America/New_York
+
+# https://jekyllrb.com/docs/configuration/
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
+
+sass:
+    sass_dir: _sass
