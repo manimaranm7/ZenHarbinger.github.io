@@ -8,12 +8,13 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <div id="main" role="main">
+            {% include sidebar.html %}
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
     </div>
-
-    {% include footer.html %}
 
   </body>
 
