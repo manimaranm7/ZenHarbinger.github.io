@@ -23,12 +23,17 @@ $(document).ready(function() {
             // unfix
             Stickyfill.stop();
             $(".author__urls").hide()
-            var postListOffset = $(".post-list").offset();
-
             if (__stickyInitOffset === null) {
                 __stickyInitOffset = $(".sidebar").offset().left;
             }
-            left = postListOffset.left - __stickyInitOffset;
+
+            //added check in case this is not on the index pages.
+            var postListOffset = $(".post-list").offset();
+            if (postListOffset === undefined) {
+                left = $(".post").offset().left - __stickyInitOffset;
+            } else {
+                left = postListOffset.left - __stickyInitOffset;
+            }
 
             $(".sidebar").css("left", left);
             $(".sidebar").css("position", "relative");

@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume/
+author_profile: true
 ---
 
 My interests focus on creating solid, flexible software; reusable components; artificial intelligence; algorithm development; and solving problems in novel ways.

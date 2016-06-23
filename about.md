@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 Meta-site for Matthew Aguirre.  There's not much going on here but pointers to projects and other sites.
