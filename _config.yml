@@ -69,13 +69,14 @@ author:
   location         : "Bristow, VA"
   email            : "matt@tros.org"
   uri              : "http://tros.org/"
-  bitbucket        :
+  bitbucket        : "matt_aguirre"
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
   github           : "ZenHarbinger"
+  goodreads        : "ZenHarbinger"
   google_plus      :
   keybase          :
   instagram        :
@@ -83,14 +84,14 @@ author:
   linkedin         : "matthewaguirre"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  stackoverflow    : "3533119/zenharbinger"
+  steam            : "ZenHarbinger"
   tumblr           :
   twitter          : "matt_aguirre"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "ZenHarbinger"
 
 # Plugins
 gems:
