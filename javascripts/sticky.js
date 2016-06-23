@@ -2,8 +2,7 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
-var initOffset = null;
-var showingMenu = true;
+var __stickyInitOffset = null;
 
 $(document).ready(function() {
 
@@ -14,8 +13,8 @@ $(document).ready(function() {
 
     var stickySideBar = function() {
         if (!$(".author__urls-wrapper button").is(":visible")) {
-            $(".sidebar").css("position", "");
             $(".sidebar").css("left", "");
+            $(".sidebar").css("position", "");
             // fix
             Stickyfill.rebuild();
             Stickyfill.init();
@@ -25,13 +24,12 @@ $(document).ready(function() {
             Stickyfill.stop();
             $(".author__urls").hide()
             var postListOffset = $(".post-list").offset();
-            var sidebarOffset = $(".sidebar").offset();
-            if (initOffset === null) {
-                initOffset = sidebarOffset.left;
+
+            if (__stickyInitOffset === null) {
+                __stickyInitOffset = $(".sidebar").offset().left;
             }
-            left = postListOffset.left - initOffset;
-            left = left < 0 ? left : left;
-            //   }
+            left = postListOffset.left - __stickyInitOffset;
+
             $(".sidebar").css("left", left);
             $(".sidebar").css("position", "relative");
         }
