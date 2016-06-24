@@ -1,0 +1,11 @@
+---
+layout: default
+author_profile: false
+---
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+    <h1 class="page__title">{{ page.display-title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>

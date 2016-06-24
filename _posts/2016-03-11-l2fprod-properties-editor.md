@@ -3,6 +3,7 @@ layout: post
 title: l2fprod-properties-editor
 date: '2016-03-11 13:54:17 -0500'
 categories: dev
+tags: [dev, java]
 author: Matthew Aguirre
 ---
 
