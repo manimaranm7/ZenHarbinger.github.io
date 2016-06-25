@@ -15,6 +15,7 @@ $(document).ready(function() {
         if (!$(".author__urls-wrapper button").is(":visible")) {
             $(".sidebar").css("left", "");
             $(".sidebar").css("position", "");
+            $(".sidebar").css("width: auto");
             // fix
             Stickyfill.rebuild();
             Stickyfill.init();
@@ -34,9 +35,10 @@ $(document).ready(function() {
             } else {
                 left = postListOffset.left - __stickyInitOffset;
             }
-
             $(".sidebar").css("left", left);
             $(".sidebar").css("position", "relative");
+            $(".sidebar").css("width", "85%");
+            console.log($(".sidebar"));
         }
     };
 
