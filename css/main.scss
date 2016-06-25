@@ -34,6 +34,11 @@ $on-laptop:        800px;
 $code-background-color: $grey-color-light;
 $link-hover-color: #660000;
 
+.site-tag a {
+    // display: inline-block;
+    // margin-right: 12px;
+}
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -46,8 +51,6 @@ $link-hover-color: #660000;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
