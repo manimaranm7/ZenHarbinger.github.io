@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Domains Dynamc DNS Check
+title: Google Domains Dynamic DNS Check
 date: '2016-06-16 13:54:17 -0400'
 categories: dev
 tags: [dev, python, dns]
