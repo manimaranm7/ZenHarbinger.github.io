@@ -28,8 +28,8 @@ Projects (largish and small) that I have put together that I want to share.
 - [Projects](https://github.com/ZenHarbinger/)
   - [check-ip-change](https://github.com/ZenHarbinger/google-domains-dydns-ip-change)
   - [Torgo]({{site.url}}/torgo)
-  - [Torgo for Android](https://github.com/ZenHarbinger/torgo-android)
-  - [l2fprod-properties-editor](https://github.com/ZenHarbinger/l2fprod-properties-editor)
+  - [Torgo for Android]({{site.url}}/torgo-android)
+  - [l2fprod-properties-editor]({{site.url}}/l2fprod-properties-editor)
   - [SpotiPy](https://github.com/ZenHarbinger/spotipy)
 
 ## Work Portfolio
