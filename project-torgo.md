@@ -1,6 +1,6 @@
 ---
 layout: page
-title: torgo
+title: Torgo
 permalink: /torgo/
 author_profile: true
 ---
