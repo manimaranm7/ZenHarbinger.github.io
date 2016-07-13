@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Torgo
+title: Gradle in snapcraft
 date: '2016-07-13 15:29:17 -0400'
 categories: dev
 tags: [dev, java, snapcraft, gradle]
