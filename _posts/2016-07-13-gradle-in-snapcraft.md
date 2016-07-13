@@ -14,6 +14,7 @@ Output files located in the build/libs directory are copied to the snaps `jar` d
 Also, happy birthday Mackenzie!
 
 snapcraft.yaml:
+
 ```yaml
 name: java-hello-gradle
 version: 1.0.0
