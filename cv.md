@@ -10,7 +10,7 @@ My interests focus on creating solid, flexible software; reusable components; ar
 ------------------
 
 ## SKILL SET (Alphabetical Order)
-Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patterns, Gephi, GIT, Human-Computer Interaction, Java, JavaScript, Jenkins CI, Linux, Machine Translation (MT), OpenMQ, PostgresSQL, Protocol Buffer, Python, Software Agents, SVN, Tomcat, Web-Services and Applications, WebSockets, ZeroMQ
+Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patterns, Gephi, Git, Human-Computer Interaction, Java, JavaScript, Jenkins CI, Linux, Machine Translation (MT), OpenMQ, PostgresSQL, Protocol Buffer, Python, Software Agents, Subversion, Tomcat, Web-Services and Applications, WebSockets, ZeroMQ
 
 ------------------
 
@@ -20,24 +20,33 @@ Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patt
 
 ***2015 - PRESENT***
 
-- Develop Torgo; a Logo programming language interpreter written in Java for Desktop and Android.
-- Maintain l2fprod Properties Editor; a Swing GUI component that will allow modifying Java Bean properties in an extensible editor.
-- Contribute to Apache Commons Lang; Added functionality to check for duplicate event listeners.
-- Develop SpotiPy; a Linux/Ubuntu music player written in Python for playing Spotify and local files utilizing GStreamer.
+- Add plugins and test scripts to [snapcraft](http://snapcraft.io/) for [ant](https://github.com/snapcore/snapcraft/pull/644), [maven](https://github.com/snapcore/snapcraft/pull/650), and [gradle](https://github.com/snapcore/snapcraft/pull/651).
+- Develop [Torgo](http://tros.org/torgo/); a Logo programming language interpreter written in Java for Desktop and Android.
+- Maintain [l2fprod Properties Editor](http://tros.org/l2fprod-properties-editor/); a Swing GUI component that will allow modifying Java Bean properties in an extensible editor.
+- Contribute to [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/); Added functionality to [check for duplicate event listeners](https://github.com/apache/commons-lang/pull/88).
+- Develop [SpotiPy](https://github.com/ZenHarbinger/spotipy); a Linux/Ubuntu music player written in Python for playing Spotify and local files utilizing GStreamer.
 
 #### ArtisTech, Inc., Centreville, Virginia -- Software Engineer
 
 ***2002 - PRESENT***
 
-- Responsibilities include software design, implementation, documentation, and testing; server maintenance for SCM, continuous integration, and web; and - communication with project members for integration and testing.
-- Representative Project Experience: Implemented Visualization Framework at the Army Research Lab (ARL) utilizing ZeroMQ, Google Protocol Buffers, and TUIO with multi-touch devices. Utilize existing - MultiTaction display devices to provide user interaction capabilities by providing mouse emulation functionality.
-- Wrote a plug-in to Virtual Battlespace 3 (VBS3) to broadcast user position data for tracking. Implemented an application for simulating social network/organizational behaviors. Used by the Network Science Collaborative Technology Alliance (NSCTA), this program acts as an integration point for testing simulated communication, information, and varying social network models. Also used for testing cloud-based, - virtual server throughput by running as a distributed client-server application utilizing OpenMQ. Developed framework for processing 500 GB of scanned documents for translation and data extraction. The framework included "cleaning" the image with custom - software, segmenting text out of the images with multiple segmenting components, OCR images, and translation of text.
-- Utilized Kepler application for showing the pipe-line work-flow for generating custom, statistical machine translation engines and automated post editors. Created an algorithm for aligning source and reference segments for statistical MT training. Used in "Boosting Performance of Weak MT Engines Automatically: Using MT Output to Align Segments & Build Statistical Post Editors," the algorithm was used to generate high-quality parallel source corpora for low-resource languages in - training statistical machine translation engines.
-- Maintained outpost computer network for hosting both custom and purchased software for the Army Research Lab (ARL) for machine translation research and evaluation.
-- Wrote a web-scraper service for gathering foreign language news documents from specified sources. Designed and implemented an ASP.NET web-application that allowed users to translate and evaluate foreign language documents using multiple machine translation - engines and automated evaluation metrics.
-- Built web-service wrappers around machine translation services and applications, OCR applications, and image segmenting applications. Enhanced an intelligent agent architecture utilizing enterprise level messaging (OpenMQ). Agents used to route-plan, monitor services, and update display on - ArcMap. Increased throughput and reliability of agent communications. Developed a .NET application for foreign language document triage/search using multilingual mind-maps, which also allowed users to create, visualize, and edit multilingual mind-maps. Using ontologies, a graph of domain specific knowledge can be built by a user for specifying keyword queries in a native language for - searching documents in a foreign language. Designed the architecture and implemented an ASP.NET web-application for task-based machine translation evaluation for the Center for Advanced Study of Language. Utilized in gathering the data for the paper "[Task-based MT Evaluation: From Who/When/Where Extraction to Event Understanding](http://www.mt-archive.info/LREC-2006-Laoudi.pdf)" by Laoudi, J., Tate, C. and Voss, - C.R..
-- Optimized a route-planning application utilizing Simulated Annealing in 3D.
-- Tested and developed VGIS (Virtual Geographic Information System) in .NET.
+- Responsibilities include software design, implementation, documentation, and testing; server maintenance for SCM, continuous integration, and web; and communication with project members for integration and testing.
+- Representative Project Experience:
+    - Implemented Visualization Framework at the Army Research Lab ([ARL][5]) utilizing ZeroMQ, Google Protocol Buffers, and [TUIO][4] with multi-touch devices. Utilize existing MultiTaction display devices to provide user interaction capabilities by providing mouse emulation functionality. (Java)
+    - Wrote a plug-in to Virtual Battlespace 3 (VBS3) to broadcast user position data for tracking. (C++)
+    - Implemented an application for simulating social network/organizational behaviors. Used by the Network Science Collaborative Technology Alliance ([NSCTA][3]), this program acts as an integration point for testing simulated communication, information, and varying social network models. Also used for testing cloud-based, virtual server throughput by running as a distributed client-server application utilizing OpenMQ. (Java)
+    - Developed framework for processing 500 GB of scanned documents for translation and data extraction. The framework included "cleaning" the image with custom software, segmenting text out of the images with multiple segmenting components, OCR images, and translation of text. (C#)
+    - Utilized Kepler application for showing the pipe-line work-flow for generating custom, statistical machine translation engines and automated post editors. (Kepler)
+    - Created an algorithm for aligning source and reference segments for statistical MT training. Used in "[Boosting Performance of Weak MT Engines Automatically: Using MT Output to Align Segments & Build Statistical Post Editors][1]," the algorithm was used to generate high-quality parallel source corpora for low-resource languages in training statistical machine translation engines. (C#)
+    - Maintained outpost computer network for hosting both custom and purchased software for the Army Research Lab (ARL) for machine translation research and evaluation. (Windows and Linux)
+    - Wrote a web-scraper service for gathering foreign language news documents from specified sources. (C#)
+    - Designed and implemented an ASP.NET web-application that allowed users to translate and evaluate foreign language documents using multiple machine translation engines and automated evaluation metrics. (C#)
+    - Built web-service wrappers around machine translation services and applications, OCR applications, and image segmenting applications.
+    - Enhanced an intelligent agent architecture utilizing enterprise level messaging (OpenMQ). Agents used to route-plan, monitor services, and update display on ArcMap. Increased throughput and reliability of agent communications. (Java)
+    - Developed a .NET application for foreign language document triage/search using multilingual mind-maps, which also allowed users to create, visualize, and edit multilingual mind-maps. Using ontologies, a graph of domain specific knowledge can be built by a user for specifying keyword queries in a native language for searching documents in a foreign language. (C#)
+    - Designed the architecture and implemented an ASP.NET web-application for task-based machine translation evaluation for the Center for Advanced Study of Language. Utilized in gathering the data for the paper "[Task-based MT Evaluation: From Who/When/Where Extraction to Event Understanding][2]" by Laoudi, J., Tate, C. and Voss, C.R.. (C#)
+    - Optimized a route-planning application utilizing Simulated Annealing in 3D. (C#)
+    - Tested and developed VGIS (Virtual Geographic Information System) in .NET. (C#)
 
 #### Virginia Tech, Blacksburg, Virginia -- Graduate Teaching Assistant
 
@@ -86,4 +95,10 @@ Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patt
 
 ## PUBLICATIONS
 
-- Voss. C.R, et al. "[Boosting Performance of Weak MT Engines Automatically: Using MT Output to Align Segments & Build Statistical Post Editors,](http://mt-archive.info/EAMT-2008-Voss.pdf)" Proceedings of the 12th European Association for Machine Translation, September 2008.
+- Voss. C.R, et al. "[Boosting Performance of Weak MT Engines Automatically: Using MT Output to Align Segments & Build Statistical Post Editors][1]," Proceedings of the 12th European Association for Machine Translation, September 2008.
+
+[1]: http://mt-archive.info/EAMT-2008-Voss.pdf
+[2]: http://www.mt-archive.info/LREC-2006-Laoudi.pdf
+[3]: http://www.ns-cta.org/
+[4]: http://www.tuio.org/
+[5]: http://www.arl.army.mil/
