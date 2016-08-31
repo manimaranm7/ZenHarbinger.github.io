@@ -32,6 +32,7 @@ Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patt
 
 - Responsibilities include software design, implementation, documentation, and testing; server maintenance for SCM, continuous integration, and web; and communication with project members for integration and testing.
 - Representative Project Experience:
+    - Worked on DARPA ['Improv'][29] studying possible social media amplification.
     - Implemented Visualization Framework at the Army Research Lab ([ARL][5]) utilizing [ZeroMQ][26], [Google Protocol Buffers][27], and [TUIO][4] with multi-touch devices. Utilize existing MultiTaction display devices to provide user interaction capabilities by providing mouse emulation functionality. ([Source][23]; Java)
     - Wrote a plug-in to Virtual Battlespace 3 ([VBS3][28]) to broadcast user position data for tracking. ([Source][22]; C++, Java, WebSockets, [d3][24])
     - Implemented an application for simulating social network/organizational behaviors. Used by the Network Science Collaborative Technology Alliance ([NSCTA][3]), this program acts as an integration point for testing simulated communication, information, and varying social network models. Also used for testing cloud-based, virtual server throughput by running as a distributed client-server application utilizing [OpenMQ][17]. ([AlgoLink][19]; Java)
@@ -125,3 +126,4 @@ Android, ASP.NET, C#, C/C++, Computer Graphics, Database Management, Design Patt
 [26]: http://zeromq.org/
 [27]: https://developers.google.com/protocol-buffers/
 [28]: https://bisimulations.com/virtual-battlespace-3
+[29]: http://www.darpa.mil/news-events/2016-03-11
